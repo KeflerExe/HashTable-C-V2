@@ -18,7 +18,9 @@ amount of memory that is reserved when constructing the table, but it also affec
 
 The following scatter functions are implemented:
 ■ Module, h(k) = k % tableSize.
+
 ■ Sum-based, h(k) = sum(ki) % tableSize.
+
 ■ Pseudo-random, h(k) = {srand(k); rand()}.
 
 ● To resolve collisions in the scatter table i implemented the next techniques:
@@ -35,8 +37,11 @@ implements the following scan functions, where k is the value
 of the key, and the parameter i is the number of the scan attempt.
 
 ■ Linear scan, g(k,i) = i.
+
 ■ Quadratic scan, g(k,i) = i2.
+
 ■ Double dispersion, g(k,i) = f(k) * i
+
 ■ Redispersion, g(k,i) = f(i)(k).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
