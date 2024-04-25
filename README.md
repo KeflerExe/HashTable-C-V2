@@ -46,6 +46,12 @@ of the key, and the parameter i is the number of the scan attempt.
 
 ■ Redispersion, g(k,i) = f(i)(k).
 
+
+```diff
++ The elimination technique is not implemented. Only insertion and search are implemented at the moment.
+
+```
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
