@@ -17,6 +17,7 @@ amount of memory that is reserved when constructing the table, but it also affec
 ● The scatter function maps the value of the key k of type Key to a table position in the range [0..tableSize-1].  
 
 The following scatter functions are implemented:
+
 ■ Module, h(k) = k % tableSize.
 
 ■ Sum-based, h(k) = sum(ki) % tableSize.
