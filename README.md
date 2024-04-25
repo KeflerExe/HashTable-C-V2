@@ -85,7 +85,7 @@ g++ bigint_main.cc bigint_func.cc
 
 (You can find instructions about the arguments of the program by running the program whit the argument "-help")
 ```
-./a.out -help
+./a.out --help
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
