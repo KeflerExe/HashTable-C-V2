@@ -33,6 +33,7 @@ The following scatter functions are implemented:
 ● In the implementation of the closed dispersion technique, the following additional parameters are defined;
 
 ○ The block size, which we denote blockSize, indicates the maximum number of records that can be stored in the same table position.
+
 ○ The scan strategy for resolving the overflow in a block
 implements the following scan functions, where k is the value
 of the key, and the parameter i is the number of the scan attempt.
